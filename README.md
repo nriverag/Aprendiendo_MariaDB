@@ -1,1 +1,1 @@
-# Aprendiendo_MariaDB
+# Aprendiendo MariaDB
