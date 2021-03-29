@@ -1,0 +1,23 @@
+Pasos para instalar Mariadb y usuario para VSCode
+
+sudo apt update
+sudo apt install mariadb-server
+sudo systemctl status mariadb
+sudo mysql_secure_installation
+sudo mariadb
+GRANT ALL ON *.* TO 'admin'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+	exit
+mysqladmin -u admin -p version
+ Install ApexSQL on VS
+	Connect
+
+
+
+user: admin
+password: 12345
+
+user:	root
+password: 12345
+
+conda activate myenv
+conda env list
